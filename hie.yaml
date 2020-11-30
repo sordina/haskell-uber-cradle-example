@@ -1,11 +1,11 @@
 cradle:
     multi:
-      - path: "./"
+      - path: "./subproject2"
         config:
           cradle:
             cabal:
-              - path: "./src"
-                component: "lib:uber-cradle-example"
+              - path: "./subproject2/src"
+                component: "lib:subproject2"
 
       - path: "./subproject"
         config:
